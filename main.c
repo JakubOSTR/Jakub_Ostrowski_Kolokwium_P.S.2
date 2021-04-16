@@ -2,16 +2,19 @@
 
 using namespace std;
 
+int n;
+
 int main()
 {
-    ios::sync_with_stdio(false)
-    long long n;
+    n=0;
     cin >> n;
-    for(int i=1; i<=n/2; i++)
+    for(int a = 0; a <= n; a++)
     {
-        if(n % i == 0)
-            cout << i << endl;
+        if(n%a == 0)
+        {
+            cout << n << endl;
+        }
     }
-    cout << n;
+    cin.ignore(2);
     return 0;
 }
