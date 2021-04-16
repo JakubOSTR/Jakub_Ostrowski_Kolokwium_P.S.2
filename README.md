@@ -1,0 +1,1 @@
+# Jakub_Ostrowski_Kolokwium_P.S.2
